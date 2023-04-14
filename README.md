@@ -151,6 +151,6 @@ If you like this project, please start it!
 
 ## 📝 License <a name="license"></a>
 
-This project is [licensed](./LICENSE) .
+This project is [licensed](./license) .
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
