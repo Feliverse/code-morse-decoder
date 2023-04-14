@@ -1,4 +1,4 @@
- CodeMorse = {
+CodeMorse = {
    '.-' => 'A', '-...' => 'B', '-.-.' => 'C',
    '-..' => 'D', '.' => 'E', '..-.' => 'F',
    '--.' => 'G', '....' => 'H', '..' => 'I',
@@ -10,15 +10,15 @@
    '-.--' => 'Y', '--..' => 'Z'
  }
  
- # Method to decode a Morse code character
- def decode_char(char)
-   CodeMorse[char]
- end
+# Method to decode a Morse code character
+def decode_char(char)
+  CodeMorse[char]
+end
  
- # print (decode_char('.-')) + "\n"
- # A
+# print (decode_char('.-')) + "\n"
+  # A
 
- # Method to decode an entire word in Morse code
+# Method to decode an entire word in Morse code
 def decode_word(word)
   
   word_arr = word.split
@@ -31,6 +31,9 @@ def decode_word(word)
   decode_word
 end
 
+# print (decode_word('-- -.--')) + "\n"
+  # MY
+
 # Method to decode the entire message in Morse code
 def decode_message(message)
   string_arr = message.split('  ')
@@ -42,6 +45,10 @@ def decode_message(message)
   
   decoded_message.strip
 end
+
+# print (decode_message('-- -.--   -. .- -- .')) + "\n"
+  # MY NAME
+
 
 print (decode_message('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')) + "\n"
 # A BOX FULL OF RUBIES
